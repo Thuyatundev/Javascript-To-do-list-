@@ -14,20 +14,17 @@
 <body>
     <div class="container">
         <div class="col-md-6 offset-md-3">
-            <h2 class="text-center mt-5">To do List</h2>
-
-            <input type="text" id="input" placeholder="Add New List">
-
-            <button id="add-list" onclick="addList()">Add</button>
-
+            <h1 class="text-center mt-5">To Do List</h1>
+            <input type="text" class="form-control" id="input" placeholder="Add Your List">
+            <button id="add-list" class="btn btn-success" onclick="addList()">Add</button>
             <ul class="list-group mt-4" id="ul-list">
                 <li class="list-group-item">
-           Add List
-                    <span class="icon" onclick="removeMe(this)">x</span>
+                    Add List<span class="del" onclick="removeMe(this)">X</span>
                 </li>
             </ul>
         </div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

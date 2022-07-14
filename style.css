@@ -1,32 +1,28 @@
-body{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-li{
-    position: relative;
-}
-
-.icon{
-    position: absolute;
-    right:20px;
-    cursor: pointer;
-}
-
-.icon:hover{
-    color: red;
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 #input {
-    border-radius: 10px;
-    padding: 5px;
     width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
 }
 
-#add-list{
-    border-radius: 10px;
-    padding: 7px;
-    background-color: #000;
-    color: #fff;
+#add-list {
+    display: inline-block;
     border: none;
+    padding: 10px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+li {
+    position: relative;
+}
+
+.del {
+    position: absolute;
+    right: 20px;
     cursor: pointer;
 }
